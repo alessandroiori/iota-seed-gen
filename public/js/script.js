@@ -10,6 +10,6 @@ function rseed() {
 
     }
 
-    $( "input.rsg" ).replaceWith( "<h5 style='word-break: break-all;'>"+ SEED +"</h5>");
+    $( "input.rsg" ).replaceWith( "<p class='lead'><h5 style='word-break: break-all;'>"+ SEED +"</h5></p>");
 
 }
